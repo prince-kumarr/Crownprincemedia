@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo1.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="">HOME</a></li>
+                    <li> <a href="">ABOUT</a></li>
+                    <li> <a href="">BLOG</a></li>
+                    <li> <a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-reorder" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World biggest University </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, illum inventore? Provident animi
+                ratione <br>incidunt eius impedit in obcaecati sequi laboriosam hic ipsum porro minima sunt odio,
+                debitis voluptatem! </p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+
+    </section>
+    <!-- -----------------Course------------- -->
+    <section class="course">
+        <h1>Course we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, maiores.</p>
+
+
+        <div class="row">
+
+            <div class="course-col">
+                <h3>Intermeida</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis magnam harum nulla voluptatem dignissimos </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis magnam harum nulla voluptatem dignissimos </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis magnam harum nulla voluptatem dignissimos </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- ------ Campus---- -->
+
+    <section class="campus">
+        <h1> Our Global campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sit reiciendis fugit, est optio facilis pariatur alias quibusdam veritatis enim!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/washington.png">
+                <div class="layer">
+                    <h3>HAJIPUR</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    
+    <!--------function------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+
+</body>
+
+</html>
