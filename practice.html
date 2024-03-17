@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>Startup Campaign Company</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <i class="fa fa-close"></i>
+    <div class="container">
+        <h1>Welcome to Startup Campaign Company</h1>
+        <p>We are here to help turn your startup idea into a successful venture. Our team of experts specializes in crafting effective campaigns to launch and promote your product or service.</p>
+        <p>Whether you're just starting out or looking to accelerate your growth, we've got you covered. Let's work together to make your startup dreams a reality!</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: #ddd; padding: 50px 0;">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to take the next step? Reach out to us and let's discuss how we can help your startup succeed.</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" style="padding: 10px; width: 100%; margin-bottom: 10px;">
+                <input type="email" name="email" placeholder="Your Email" style="padding: 10px; width: 100%; margin-bottom: 10px;">
+                <textarea name="message" placeholder="Your Message" style="padding: 10px; width: 100%; margin-bottom: 10px; height: 150px;"></textarea>
+                <button type="submit" class="cta-button" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
